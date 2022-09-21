@@ -1,7 +1,10 @@
 language: java
 sudo: true
 dist: trusty
-jdk:
-    - openjdk17
+jdk: openjdk17
+addons:
+    apt:
+        packages:
+            - java-17-openjdk
 before_install:
     - chmod +x mvnw
