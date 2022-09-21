@@ -5,6 +5,6 @@ jdk: openjdk17
 addons:
     apt:
         packages:
-            - java-17-openjdk
+            - openjdk-17-jdk
 before_install:
     - chmod +x mvnw
